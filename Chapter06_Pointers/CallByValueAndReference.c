@@ -1,16 +1,16 @@
 #include <stdio.h>
 
 // call by value
-float add1(float v)
+float add1(float value)
 {
-    v = v + 1.0f;
-    return v;
+    value = value + 1.0f;
+    return value;
 }
 
 // call by reference
-void add2(float *v)
+void add2(float *value)
 {
-    *v = *v + 1.0f; // dereference
+    *value = *value + 1.0f; // dereference
 }
 
 int main()

@@ -2,7 +2,7 @@
 
 void do_something(double param_in, double *param_out1, double *param_out2)
 {
-    *param_out1 = param_in;
+    *param_out1 += param_in;
     *param_out2 = param_in;
 }
 

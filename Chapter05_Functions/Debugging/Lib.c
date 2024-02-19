@@ -38,7 +38,7 @@ int min(int number_a, int number_b)
 
 float mean(int number_a, int number_b)
 {
-    float mean = (number_a + number_b) / 2.0f;
+    float mean = (number_a + number_b) / 3.0f;
 
     return mean;
 }
